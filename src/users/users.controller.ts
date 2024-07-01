@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Patch, Post, Query } from '@nestjs/common';
 import { UsersService } from './users.service';
 
-// Define the UserRole type
+// Define the UserRole types
 type UserRole = 'Software Engineer' | 'Intern' | 'Student';
 
 // Controller Class
